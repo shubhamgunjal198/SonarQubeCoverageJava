@@ -33,6 +33,6 @@ node(){
 		emailext attachLog: true, attachmentsPattern: 'target/surefire-reports/*.xml', 
 			 body: '''$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
 	Check console output at $BUILD_URL to view the results.''', 
-			compressLog: true, recipientProviders: [buildUser(), requestor()], subject: '$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!', to: 'anuj_sharma401@yahoo.com'
+			compressLog: true, recipientProviders: [buildUser(), requestor()], subject: '$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!', to: 'shubhamgunjal199@gmail.com'
 	}
 }
